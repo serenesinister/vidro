@@ -1,4 +1,4 @@
-# Relógio Digital - Projeto em Verilog
+# Relógio Digital - Projeto em Hardware
 
 Este repositório contém o código em Verilog para a implementação de um relógio digital com contagem de horas, minutos e segundos. O relógio suporta ajuste de tempo através de botões e exibição em 4 displays de 7 segmentos.
 
