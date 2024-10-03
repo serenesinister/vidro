@@ -1,0 +1,236 @@
+$date
+	Sun Sep 22 13:23:32 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_Relogio_Digital $end
+$var wire 1 ! seg_ponto $end
+$var wire 8 " leds [7:0] $end
+$var wire 7 # display_unidade_min [6:0] $end
+$var wire 7 $ display_unidade_hora [6:0] $end
+$var wire 7 % display_dezena_min [6:0] $end
+$var wire 7 & display_dezena_hora [6:0] $end
+$var reg 1 ' btn_ajuste $end
+$var reg 1 ( btn_inc $end
+$var reg 1 ) clk $end
+$var reg 1 * reset $end
+$scope module uut $end
+$var wire 1 ' btn_ajuste $end
+$var wire 1 ( btn_inc $end
+$var wire 1 ) clk $end
+$var wire 1 * reset $end
+$var wire 1 ! seg_ponto $end
+$var wire 6 + segundos [5:0] $end
+$var wire 6 , minutos [5:0] $end
+$var wire 8 - leds [7:0] $end
+$var wire 5 . horas [4:0] $end
+$var wire 2 / estado [1:0] $end
+$var wire 7 0 display_unidade_min [6:0] $end
+$var wire 7 1 display_unidade_hora [6:0] $end
+$var wire 7 2 display_dezena_min [6:0] $end
+$var wire 7 3 display_dezena_hora [6:0] $end
+$var wire 1 4 ajustando $end
+$scope module contador $end
+$var wire 1 ' btn_ajuste $end
+$var wire 1 ( btn_inc $end
+$var wire 1 ) clk $end
+$var wire 1 * reset $end
+$var reg 1 4 ajustando $end
+$var reg 4 5 dezena_min [3:0] $end
+$var reg 2 6 estado [1:0] $end
+$var reg 5 7 horas [4:0] $end
+$var reg 6 8 minutos [5:0] $end
+$var reg 6 9 segundos [5:0] $end
+$upscope $end
+$scope module display $end
+$var wire 5 : horas [4:0] $end
+$var wire 6 ; minutos [5:0] $end
+$var reg 7 < display_dezena_hora [6:0] $end
+$var reg 7 = display_dezena_min [6:0] $end
+$var reg 7 > display_unidade_hora [6:0] $end
+$var reg 7 ? display_unidade_min [6:0] $end
+$scope function hora_para_7seg $end
+$var reg 4 @ valor [3:0] $end
+$upscope $end
+$scope function min_para_7seg $end
+$var reg 4 A valor [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 A
+b0 @
+b111111 ?
+b111111 >
+b111111 =
+b111111 <
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+04
+b111111 3
+b111111 2
+b111111 1
+b111111 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+1*
+0)
+0(
+0'
+b111111 &
+b111111 %
+b111111 $
+b111111 #
+b0 "
+1!
+$end
+#500
+1)
+#1000
+0)
+0*
+#1500
+b1 "
+b1 -
+b1 +
+b1 9
+1)
+#2000
+0)
+#2500
+b10 "
+b10 -
+b10 +
+b10 9
+1)
+#3000
+0)
+#3500
+b11 "
+b11 -
+b11 +
+b11 9
+1)
+#4000
+0)
+#4500
+b100 "
+b100 -
+b100 +
+b100 9
+1)
+#5000
+0)
+#5500
+b101 "
+b101 -
+b101 +
+b101 9
+1)
+#6000
+0)
+1'
+#6500
+b110 "
+b110 -
+b110 +
+b110 9
+b1 /
+b1 6
+1)
+#7000
+0)
+1(
+0'
+#7500
+b110 #
+b110 0
+b110 ?
+b1 A
+b1 ,
+b1 8
+b1 ;
+1)
+#8000
+0)
+0(
+#8500
+1)
+#9000
+0)
+#9500
+1)
+#10000
+0)
+#10500
+1)
+#11000
+0)
+#11500
+1)
+#12000
+0)
+#12500
+1)
+#13000
+0)
+1'
+#13500
+b10 /
+b10 6
+1)
+#14000
+0)
+1(
+0'
+#14500
+b1 A
+b110 $
+b110 1
+b110 >
+b1 @
+b1 .
+b1 7
+b1 :
+1)
+#15000
+0)
+0(
+#15500
+1)
+#16000
+0)
+#16500
+1)
+#17000
+0)
+#17500
+1)
+#18000
+0)
+#18500
+1)
+#19000
+0)
+#19500
+1)
+#20000
+0)

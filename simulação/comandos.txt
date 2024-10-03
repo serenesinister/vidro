@@ -1,0 +1,28 @@
+iverilog -o simv tb_Relogio_Digital.v Relogio_Digital.v
+
+vvp simv
+
+gtkwave dump.vcd
+
+
+
+btn_ajuste =0 : o sinal sobe de 6000s a 7000s depois fica em nivel 0 até 13000s quando sobe para nível alto até 14000s;
+
+btn_inc =0 : tem essa mesma variação logo após btn ajuste, ou seja: nivel alto de 6980s-7980s e de 14000s-15000s;
+
+clk =0 : começa zerado e de 500 a 1000 em estado alto e fica alternando nesse intervalo até 20000s;
+
+
+display_dezena_horas [6:0] =3F : começa com duas linhas (uma baixa e outra alta) que permanecem constantes até o fim;
+
+display_dezena_minutos [6:0] =3F : começa com duas linhas (uma baixa e outra alta) que permanecem constantes até o fim;
+
+display_unidade_horas [6:0] =3F : começa com duas linhas verdes (uma baixa e outra alta) que trocam de nivel aos 14500s e permanecem até o fim;
+
+display_unidade_minutos [6:0] =3F : começa com duas linhas verdes (uma baixa e outra alta) que trocam de nivel aos 7500s e permanecem até o fim;
+
+leds [7:0] =00 : começa com duas linhas verdes (uma baixa e outra alta) que começam a se alternar em 1500 e desalterna em 2500, alterna em 2500 e desalterna 3500, e ficam se alternando assim nesse intervalo até 6500, depois permanecem estáveis;
+
+reset =1 : começa em nivel alto e vai para 0 em 1000s e permanece lá até o fim;
+
+seg_ponto =1 : apenas uma linha em nivel alto constante do início ao fim.
