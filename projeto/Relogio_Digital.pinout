@@ -1,0 +1,52 @@
+//                                            (c) 2023 inPlace Design Automation
+// Descrição : arquivo de pinagem contendo o mapeamento do módulo Relogio_Digital para
+//             a placa S-board Pitanga.
+//  MAPEAMENTO DOS PINS
+    clk         =    clk_1hz;           // Clock de 1Hz
+    btn_ajuste  =    btn0;              // Botão de ajuste
+    btn_inc     =    btn1;              // Botão de incremento
+    reset       =    btn2;
+// Mapeamento dos LEDs para a contagem de segundos
+    leds[0]     =    led0;               // LED 0
+    leds[1]     =    led1;               // LED 1
+    leds[2]     =    led2;               // LED 2
+    leds[3]     =    led3;               // LED 3
+    leds[4]     =    led4;               // LED 4
+    leds[5]     =    led5;               // LED 5
+    leds[6]     =    led6;               // LED 6
+    leds[7]     =    led7;               // LED 7
+
+// Mapeamento dos bits de saída do decodificador para os displays de 7 segmentos
+    display_unidade_min[0] = segd0.g_on;          // Display 1 (unidade dos minutos)
+    display_unidade_min[1] = segd0.f_on;
+    display_unidade_min[2] = segd0.e_on;
+    display_unidade_min[3] = segd0.d_on;
+    display_unidade_min[4] = segd0.c_on;
+    display_unidade_min[5] = segd0.b_on;
+    display_unidade_min[6] = segd0.a_on;
+
+    display_dezena_min[0] = segd1.g_on;          // Display 4 (dezena dos minutos)
+    display_dezena_min[1] = segd1.f_on;
+    display_dezena_min[2] = segd1.e_on;
+    display_dezena_min[3] = segd1.d_on;
+    display_dezena_min[4] = segd1.c_on;
+    display_dezena_min[5] = segd1.b_on;
+    display_dezena_min[6] = segd1.a_on;    
+
+    display_unidade_hora[0] = segd2.g_on;          // Display 2 (unidade das horas)
+    display_unidade_hora[1] = segd2.f_on;
+    display_unidade_hora[2] = segd2.e_on;
+    display_unidade_hora[3] = segd2.d_on;
+    display_unidade_hora[4] = segd2.c_on;
+    display_unidade_hora[5] = segd2.b_on;
+    display_unidade_hora[6] = segd2.a_on;
+
+    seg_ponto   =   segd2.dp_on;    // Ponto entre horas e minutos (ativado)
+
+    display_dezena_hora[0] = segd3.g_on;          // Display 3 (dezena das horas)
+    display_dezena_hora[1] = segd3.f_on;
+    display_dezena_hora[2] = segd3.e_on;
+    display_dezena_hora[3] = segd3.d_on;
+    display_dezena_hora[4] = segd3.c_on;
+    display_dezena_hora[5] = segd3.b_on;
+    display_dezena_hora[6] = segd3.a_on;
