@@ -1,4 +1,4 @@
-# Relógio Digital - Projeto em Hardware
+# Relógio Digital - Projeto em Verilog
 
 Este repositório contém o código em Verilog para a implementação de um relógio digital com contagem de horas, minutos e segundos. O relógio suporta ajuste de tempo através de botões e exibição em 4 displays de 7 segmentos.
 
@@ -31,9 +31,8 @@ Em breve será disponibilizado um vídeo no YouTube para demonstrar o funcioname
 ## Links Importantes
 
 - **Repositório GitHub**: [https://github.com/serenesinister/vidro/](https://github.com/serenesinister/vidro/)
-- **Diagrama de Módulos em Blocos**: [Ver Diagrama](https://drive.google.com/file/d/1sdCcCaLYIHHgaWaC9wTGsD7V94GAdK-W/view?usp=sharing)
-- **Diagrama da Máquina de Estados**: [Ver Diagrama](https://drive.google.com/file/d/1a_hDYVOWhz1TCVEwwH5lOsJwg2dIqDj5/view?usp=sharing)
-- **Vídeo no YouTube**: [Assistir Video](https://link-a-definir)
+- **Diagramas**: [Diagrama de Módulos em Blocos](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=RelogioDigital.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1PggjZC66QEcQSLhh32N1gI66Bg7osPoK%26export%3Ddownload)
+- **Vídeo no YouTube**: [Link para o Vídeo](https://link-a-definir)
 
 ## Como Utilizar
 
