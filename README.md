@@ -32,10 +32,10 @@ O projeto foi simulado e testado na **FPGA Altera Cyclone II DE2** no laboratór
 
 Um vídeo demonstrativo do projeto já está disponível no YouTube. Neste vídeo, apresento a introdução ao projeto, suas especificações, os diagramas de blocos e da máquina de estados, além de uma análise do código e uma demonstração do funcionamento na placa Pitanga S-Board da In-Place. Também incluo os resultados dos testes e uma demonstração da implementação na FPGA.
 
-Confira como o projeto funciona na prática: [Assista ao Vídeo](https://youtu.be/OifkEoE0GLU).
+Confira como o projeto funciona na prática: [Assista ao Vídeo](https://youtu.be/kDLYEXDfaZM).
 
 ## Links Importantes
 
 - **Repositório GitHub**: Acesse o código-fonte do projeto [Relógio Digital no GitHub](https://github.com/serenesinister/vidro/).
 - **Diagramas do Projeto**: Visualize os diagramas utilizados na implementação [Diagramas do Relógio Digital](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=RelogioDigital.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1PggjZC66QEcQSLhh32N1gI66Bg7osPoK%26export%3Ddownload).
-- **Vídeo do Projeto**: Assista à apresentação e demonstração do projeto no YouTube [Vídeo Demonstrativo do Relógio Digital](https://youtu.be/OifkEoE0GLU).
+- **Vídeo do Projeto**: Assista à apresentação e demonstração do projeto no YouTube [Vídeo Demonstrativo do Relógio Digital](https://youtu.be/kDLYEXDfaZM).
